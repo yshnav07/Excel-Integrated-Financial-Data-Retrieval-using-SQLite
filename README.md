@@ -1,5 +1,5 @@
 # Daily Data Excel UDFs (SQLite backend)
-
+This project demonstrates how Excel can fetch financial data directly from a SQLite database using custom Excel formulas (UDFs) powered by xlwings and Python.
 ## Overview
 This project provides Excel UDFs to query a local SQLite prices database:
 - `get_daily_data(accord_code, field, date)` — single value
